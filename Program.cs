@@ -3,6 +3,7 @@
     var ObjApellido = new Persona();
     var ObjProducto = new Producto();
     var e = new Estudiante();
+    var r = new Reloj();
     ObjetoPersona.Nombre = "Junior";
     ObjApellido.Apellido = " Valera";
     ObjProducto.Nombre = "Laptop Gamer: ";
@@ -10,3 +11,4 @@
     Console.WriteLine(ObjetoPersona.Nombre + ObjApellido.Apellido);
     Console.WriteLine(ObjProducto.Nombre);
     Console.WriteLine($"La Edad es: {e.Edad}");
+    Console.WriteLine(r.Zona);
