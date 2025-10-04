@@ -5,6 +5,7 @@
     var e = new Estudiante();
     var r = new Reloj();
     var c = new Cuenta();
+    var rt = new Rectangulo { Alto =5, Ancho =4 };
     ObjetoPersona.Nombre = "Junior";
     ObjApellido.Apellido = " Valera";
     ObjProducto.Nombre = "Laptop Gamer: ";
@@ -14,4 +15,5 @@
     Console.WriteLine(ObjProducto.Nombre);
     Console.WriteLine($"La Edad es: {e.Edad}");
     Console.WriteLine(r.Zona);
-    Console.WriteLine(c.Depositar);
+    Console.WriteLine($"El Rectangulo tiene una altura de {rt.Alto} una anchura de {rt.Ancho} y un area de {rt.Area}");
+    // Console.WriteLine(c.Depositar);// c.Saldo = 999m; // No debe compilar
