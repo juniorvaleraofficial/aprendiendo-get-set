@@ -6,4 +6,11 @@ public class Cuenta
     {
         if (monto > 0) Saldo += monto;
     }
+
+    static void Main(string[] args)
+    {
+        var c = new Cuenta();
+        c.Depositar(120m);
+        Console.WriteLine(c.Depositar);
+    }
 }
