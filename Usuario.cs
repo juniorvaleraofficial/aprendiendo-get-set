@@ -2,10 +2,10 @@
 
 public class Usuario
 {
-    private string email = "sin-correo@demo.local";
-    public string Email
+    private string email = "sin-correo@demo.local";// campo 
+    public string Email // propiedad
     {
-        get { return Email; } // ❌ Esto llama a la propiedad otra vez
+        get { return email; } // ✅ usar el campo, no la propiedad
         set
         {
             if (value != null && value.Contains("@"))
