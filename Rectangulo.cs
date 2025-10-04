@@ -1,4 +1,4 @@
-// Objetivo: Devolver valor calculado a partir de campos/otras props.
+// Objetivo: Devolver valor calculado a partir de campos/otras props
 
 public class Rectangulo
 {
